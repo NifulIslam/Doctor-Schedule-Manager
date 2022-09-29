@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FirstDoctor"
+    >
+
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/img"
+/>
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/doctorTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="name: mr A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/photo" />
+
+    <TextView
+        android:id="@+id/age"
+        style="@style/doctorTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="age: 32"
+        app:layout_constraintTop_toBottomOf="@id/name"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/gender"
+        style="@style/doctorTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gender : male"
+        app:layout_constraintTop_toBottomOf="@id/age"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/spetialization"
+        style="@style/doctorTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="specialization: none"
+        app:layout_constraintTop_toBottomOf="@id/gender"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <TextView
+        android:id="@+id/degree"
+        style="@style/doctorTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Degree: MBBS"
+        app:layout_constraintTop_toBottomOf="@id/spetialization"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <TextView
+        android:id="@+id/location"
+        style="@style/doctorTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location: Dhaka"
+        app:layout_constraintTop_toBottomOf="@id/degree"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="doctorBtn">
+        <item name="android:textSize">10dp</item>
+    </style>
+    <style name="doctorTextView">
+        <item name="android:gravity">center</item>
+    </style>
+
+
+</resources>

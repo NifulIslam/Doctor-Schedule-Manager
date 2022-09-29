@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserHomePage">
+    <Button
+        style="@style/doctorBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="first Doctor"
+        android:id="@+id/doctor1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        style="@style/doctorBtn"
+        android:id="@+id/doctor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:text="second Doctor"
+        app:layout_constraintStart_toEndOf="@id/doctor1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        style="@style/doctorBtn"
+        android:id="@+id/doctor3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:text="third Doctor"
+        app:layout_constraintStart_toEndOf="@id/doctor2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        style="@style/doctorBtn"
+        android:id="@+id/schedulesBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doctor2"
+        app:layout_constraintVertical_bias="0.023"
+        android:text="book schedule"
+        />
+
+    <FrameLayout
+        android:id="@+id/frameLayoutDoctors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/schedulesBtn"
+        app:layout_constraintVertical_bias="0.04" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

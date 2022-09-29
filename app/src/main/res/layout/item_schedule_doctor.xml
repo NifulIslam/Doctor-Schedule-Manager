@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:id="@+id/day"
+        android:padding="10dp"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="date "
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/month"
+        android:layout_width="40dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:text="month "
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/year"
+        android:padding="10dp"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="year "
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/starHour"
+        android:padding="10dp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="start hour"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/starMinute"
+        android:padding="10dp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="start minute"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/endHour"
+        android:padding="10dp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="end hour "
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/endMinute"
+        android:padding="10dp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="end minute "
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/isBooked"
+        android:padding="10dp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="is Booked"
+        android:gravity="center"
+        android:textColor="@color/green"
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>
