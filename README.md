@@ -10,7 +10,6 @@ now log in as a user. you may need to sign up if you don't have an account \
 ![photo1!](ss/4.png) \
 
 you can move around doctor's profile if you wish \
-![photo1!](ss/5.png) \
 ![photo1!](ss/6.png) \
 ![photo1!](ss/7.png) \
 
